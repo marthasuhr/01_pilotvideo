@@ -1,0 +1,80 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  font-family: "Rubik Mono One", sans-serif;
+  background-image: url(tern2.png);
+}
+
+/************** Menu *************/
+
+nav {
+  --less-than: 600;
+  --burger-lines: #000000;
+  --burger-border: #000000;
+}
+
+header nav li {
+  align-items: baseline;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+
+  overflow-x: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.andet {
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  border: 2px solid #000000;
+}
+
+.andet:hover {
+  background-color: #001dff;
+}
+
+.video {
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  border: 2px solid #000000;
+}
+
+.video:hover {
+  background-color: #001dff;
+}
