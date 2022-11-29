@@ -11,9 +11,10 @@ img {
   display: block;
 }
 
-body {
-  font-family: "Rubik Mono One", sans-serif;
-  background-image: url(tern2.png);
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
 }
 
 /************** Menu *************/
@@ -22,12 +23,7 @@ nav {
   --less-than: 600;
   --burger-lines: #000000;
   --burger-border: #000000;
-}
 
-header nav li {
-  align-items: baseline;
-}
-nav ul {
   display: flex;
   justify-content: space-around;
 
@@ -37,6 +33,7 @@ nav ul {
   padding-bottom: 0.4rem;
 
   overflow-x: auto;
+  margin-top: 30px;
 }
 
 a {
@@ -64,6 +61,7 @@ a:hover {
   background-color: #001dff;
 }
 
+/***
 .video {
   background-color: white;
   font-size: 1rem;
@@ -77,4 +75,13 @@ a:hover {
 
 .video:hover {
   background-color: #001dff;
+}
+**/
+
+.grid_1234 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 3fr;
+
+  padding: 10rem;
 }
