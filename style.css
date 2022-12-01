@@ -61,22 +61,17 @@ a:hover {
   background-color: #001dff;
 }
 
-/***
-.video {
+video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
   background-color: white;
   font-size: 1rem;
   padding: 0.5rem;
   margin: 1rem;
-  text-decoration: none;
-  border-radius: 12px;
-  display: inline-block;
-  border: 2px solid #000000;
-}
 
-.video:hover {
-  background-color: #001dff;
+  display: inline-block;
 }
-**/
 
 .grid_1234 {
   display: grid;
